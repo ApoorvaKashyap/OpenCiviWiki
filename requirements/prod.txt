@@ -3,3 +3,4 @@
 # dependencies only used in prod env
 gunicorn==20.1.0
 honcho==1.0.1
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
